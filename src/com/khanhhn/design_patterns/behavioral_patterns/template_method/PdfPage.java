@@ -2,17 +2,17 @@ package com.khanhhn.design_patterns.behavioral_patterns.template_method;
 
 public class PdfPage extends Page {
     @Override
-    void printHeader() {
+    public void printHeader() {
         System.out.println("PDF Header");
     }
 
     @Override
-    void printBody() {
+    public void printBody() {
         System.out.println("PDF Body");
     }
 
     @Override
-    void printFooter() {
+    public void printFooter() {
         System.out.println("PDF Footer");
     }
 }
