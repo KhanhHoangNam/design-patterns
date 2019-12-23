@@ -1,4 +1,4 @@
-package com.khanhhn.design_patterns.behavioral_patterns.chain_of_responsibility;
+package com.khanhhn.design_patterns.behavioral_patterns.chain_of_responsibility.first_example;
 
 public class ConsoleLogger extends Logger {
     public ConsoleLogger(LogLevel logLevel) {
