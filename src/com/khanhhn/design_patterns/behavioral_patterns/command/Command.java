@@ -1,5 +1,5 @@
 package com.khanhhn.design_patterns.behavioral_patterns.command;
 
-public interface ICommand {
+public interface Command {
     void execute();
 }
