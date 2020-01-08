@@ -1,4 +1,4 @@
-package com.khanhhn.design_patterns.behavioral_patterns.command;
+package com.khanhhn.design_patterns.behavioral_patterns.command.example1;
 
 public class OpenAccount implements Command {
 
