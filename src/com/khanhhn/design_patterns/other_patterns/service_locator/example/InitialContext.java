@@ -8,8 +8,8 @@ public class InitialContext {
 
         try {
             Class<MessagingService> clazz = (Class<MessagingService>) Class.forName(serviceName);
-
             Object newInstance = clazz.newInstance();
+
             return cast(newInstance, clazz);
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
             e.printStackTrace();
