@@ -11,10 +11,11 @@ public class Cache {
 
     public MessagingService getService(String serviceName) {
         for (MessagingService service : SERVICES) {
-            if (serviceName.equals(service.getClass().getSimpleName())) {
+            if (serviceName.equals(service.getClass().getCanonicalName())) {
                 return service;
             }
         }
+
         return null;
     }
 
