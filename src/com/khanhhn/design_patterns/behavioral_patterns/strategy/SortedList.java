@@ -5,7 +5,7 @@ import java.util.List;
 
 class SortedList {
     private SortStrategy sortStrategy;
-    private List<String> items = new ArrayList<>();
+    private final List<String> items = new ArrayList<>();
 
     void setSortStrategy(SortStrategy sortStrategy) {
         this.sortStrategy = sortStrategy;
